@@ -1,0 +1,42 @@
+resources:
+  s3:
+    config:
+      profile: "PROFILE_NAME"
+      region: "REGION"
+  starburst:
+    config:
+      client_id: "CLIENT_ID"
+      secret_key: "SECRET_KEY"
+      auth_url: "AUTH_URL"
+      discovery_url: "DISCOVERY_URL"
+  starburst_session:
+    config:
+      host: "STARBURST_HOST"
+      port: 123
+      user: "USER/accountadmin"
+      password: "ACCOUNT_ADMIN_PASSWORD"
+ops:
+  daira_assets:
+    config:
+      host: localhost
+      username: "USERNAME"
+      password: "PASSWORD"
+      dbname: "DB_NAME"
+      port: 1234
+      table: "TABLE_NAME"
+  upload_s3:
+    config:
+      bucket_name: "S3_BUCKET_NAME"
+      key_prefix: "S3_KEY_PREFIX"
+  schema_discovery:
+    config:
+      get_sql_url: "GET_SQL_ENDPOINT"
+  trusted_schema:
+    config:
+      catalog: "CATALOG_NAME"
+      trusted_schema: "TRUSTED_SCHEMA_NAME"
+      raw_schema: "RAW_SCHEMA_NAME"
+      raw_table: "RAW_TABLE_NAME"
+  trusted_table:
+    config:
+      trusted_table: "TRUSTED_TABLE_NAME"

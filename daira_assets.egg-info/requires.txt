@@ -1,0 +1,14 @@
+dagster
+dagster-cloud
+pendulum
+dagster-aws
+dagster-pandas
+pystarburst
+PyYAML
+pyarrow
+dagit
+psycopg2-binary
+
+[dev]
+dagster-webserver
+pytest

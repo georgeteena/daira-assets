@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+daira_assets/__init__.py
+daira_assets/assets.py
+daira_assets.egg-info/PKG-INFO
+daira_assets.egg-info/SOURCES.txt
+daira_assets.egg-info/dependency_links.txt
+daira_assets.egg-info/requires.txt
+daira_assets.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: daira_assets
+Version: 0.0.0
+Requires-Dist: dagster
+Requires-Dist: dagster-cloud
+Requires-Dist: pendulum
+Requires-Dist: dagster-aws
+Requires-Dist: dagster-pandas
+Requires-Dist: pystarburst
+Requires-Dist: PyYAML
+Requires-Dist: pyarrow
+Requires-Dist: dagit
+Requires-Dist: psycopg2-binary
+Provides-Extra: dev
+Requires-Dist: dagster-webserver; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
